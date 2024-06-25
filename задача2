@@ -1,0 +1,8 @@
+# Изучение типов данных
+print(data.dtypes)
+# Нахождение количества пропущенных ячеек
+missing_values = data.isnull().sum()
+print(missing_values)
+# Основные статистики
+statistics = data.describe()
+print(statistics)
